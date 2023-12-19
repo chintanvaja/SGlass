@@ -1,0 +1,395 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins', sans-serif !important;
+	font-size: 17px;
+	line-height: 25px;
+	font-weight: 400;
+	font-style: normal;
+	color: #212222;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	font-size: 5.71vw !important;
+	line-height: 5.71vw !important;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2{
+	font-size: 3.95vw !important;
+	line-height: 3.95vw !important;
+	font-weight: 700 !important;
+	font-style: normal;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	display: block;
+}
+
+.container{
+	width: 100%;
+	max-width: 80.53vw; /* 1100px*/
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+/* Heaader css */
+
+.header_col1 a{
+	font-size: 23px;
+	line-height: 31px;
+	color: #fff !important;
+	transition: all 0.4s linear;
+}
+
+.header_col1 a:hover, .header_col1 a:active{
+	color: #777676 !important;
+}
+
+.header_col2 ul li a, .header_col3 ul li a{
+	font-size: 14px;
+	line-height: 22px;
+	color: #777676 !important;
+	transition: all 0.4s linear;
+}
+
+.header_col2 ul li a:hover, .header_col2 ul li a:active, .header_col3 ul li a:hover, .header_col3 ul li a:active{
+	color: #fff !important;
+}
+
+/* Banner css */
+
+.banner_main{
+	position: relative;
+}
+.banner_flex{
+	padding: 21.96vw 14.64vw 11.71vw 14.64vw !important; /*padding: 300px 200px 160px 200px !important;*/
+}
+
+.banner_sub{
+	margin-bottom: 4.02vw; /*55px*/
+	color: #fff;
+}
+
+.banner_btn .btn{
+	background-color: #1d1d1d;
+	color: #fff;
+	transition: all 0.4s linear;
+}
+
+.banner_btn .btn:hover, .banner_btn .btn:active{
+	background-color: #eb19b7;
+	color: #fff;
+}
+
+.less_btn, .grt_btn{
+	background-color: #fff !important;
+	transition: all 0.4s linear !important;
+}
+
+.less_btn:hover, .less_btn:active , .grt_btn:hover, .grt_btn:active{
+	background-color: #eb19b7 !important;
+	color: #fff !important;
+}
+
+.less_btn{
+	position: absolute;
+	top: 15.37vw; /*210px;*/
+	left: 0;
+}
+.grt_btn{
+	position: absolute;
+	top: 21.96vw; /*300px;*/
+	left: 0;
+}
+
+/* About CSS */
+.about_row{
+	padding: 4.39vw 0; /*60px*/
+}
+
+.about_right{
+	position: relative;
+}
+
+.about_left{
+	position: absolute;
+	top: 4.39vw; /*60px*/
+	left: 0;
+}
+
+.about_title{
+	margin-bottom: 3.66vw; /*50px*/
+}
+.about_title span, .best_title span, .buy_title span, .customer_title span{
+	color: #bcc4f2;
+	text-transform: capitalize !important;
+}
+.about_title h2::first-letter, .best_title h2::first-letter, .buy_title h2::first-letter, .customer_title h2::first-letter{
+	font-size: 5.93vw !important;
+}
+
+.about_subtitle{
+	margin-bottom: 2.93vw; /*40px*/
+	max-width: 48.02vw;
+}
+.about_btn .btn, .glass_btn .btn, .offer_btn .btn, .buy_btn .btn{
+	border: 1px solid #eb19b7 !important;
+	background-color: #eb19b7;
+	color: #fff;
+	transition: all 0.4s linear;
+}
+.about_btn .btn:hover, .about_btn .btn:active, .glass_btn .btn:hover, .glass_btn .btn:active, .offer_btn .btn:hover, .offer_btn .btn:active, .buy_btn .btn:hover, .buy_btn .btn:active{
+	color: #eb19b7;
+	background-color: #fff;
+}
+
+/* Glass CSS */
+
+.glass_main{
+	background-color: #bcc4f2;
+	padding: 60px 0;
+}
+
+.glass_info a{
+	color: #bcc4f2;
+	text-decoration: underline !important;
+	text-transform: capitalize;
+	transition: all 0.4s linear;
+}
+.glass_info a:hover, .glass_info a:active{
+	color: #1d1d1d;
+}
+
+.glass_row{
+	margin: 4.39vw 0; /*60px*/
+}
+
+.glass_row .card{
+	border: #fff;
+	border-radius: 15px;
+}
+.glass_title span{
+	color: #6f6e6e;
+	text-transform: capitalize !important;
+}
+.glass_title h2, .about_title h2, .best_title h2, .buy_title h2{
+	font-size: 3.08vw !important; /* 42px*/
+	line-height: 3.66vw !important; /*50px*/
+}
+.glass_title{
+	padding: 0 15px;
+}
+.glass_title h2::first-letter{
+	font-size: 5.93vw !important;
+}
+
+/* Best CSS */
+
+.best_main{
+	padding: 6.22vw 0 9.15vw 0; /*85px 0 125px 0*/
+}
+.best_title{
+	margin-bottom: 4.76vw; /*65px*/
+}
+.best_info{
+	font-size: 14px;
+	font-weight: 600;
+}
+.best_info span{
+	color: #42b8e4;
+	font-weight: bold;
+	margin-right: 7px;
+}
+
+/* Offer CSS */
+
+.offer_left{
+	background-color: #d5dade;
+}
+.offer_right{
+	background-color: #bcc4f2;
+	padding: 180px 0 60px 0;
+}
+.offer_title{
+	max-width: 35%;
+}
+
+.offer_info{
+	padding:0 11.35vw; /* 77px 155px*/
+}
+.offer_btn{
+	margin: 50px 0;
+}
+
+/* Buy CSS */
+.buy_main{
+	padding: 7.32vw 0; /*100px*/
+}
+.buy_title{
+	margin-bottom: 8.79vw; /*120px;*/
+}
+.buy_title h2 .buy_span{
+	color: #6f6e6e;
+	text-transform: none !important;
+}
+.buy_img{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 3.66vw; /*50px*/
+}
+.buy_info{
+	font-size: 14.50px;
+	line-height: 22.50px;
+}
+.buy_btn{
+	margin-top: 3.66vw; /*50px*/
+}
+
+/* Customer CSS */
+
+.customer_main{
+	padding-bottom: 10.98vw; /* 150px */
+}
+.customer_img, .customer_info{
+	display: flex;
+	justify-content: center;
+}
+.customer_title{
+	text-transform: capitalize;
+	margin: 3.66vw 0; /* 50px */
+}
+.customer_info{
+	max-width: 69%;
+	font-size: 14.50px;
+	line-height: 22.50px;
+}
+.customer_name a{
+	color: #1d1d1d;
+	font-weight: 700;
+	transition: all 0.4s linear;
+}
+.customer_name a:hover, .customer_name a:active{
+	color: #bcc4f2;
+}
+
+/* Footer CSS */
+.footer_hero{
+	background-color: #141414;
+	padding: 2.93vw 9.52vw; /* 40px 130px */
+}
+.footer_top{
+	border-bottom: 1px solid #707171;
+}
+.top_title h2{
+	color: #fff;
+	font-size: 3.07vw !important; /* 42px */
+	line-height: 3.66vw !important; /* 50px */
+}
+.name, .number, .email, .message{
+	border-bottom: 1px solid #707171;
+	margin-bottom: 15px;
+}
+.footer_form .form-control{
+	background-color: transparent;
+	font-size: 14.51px;
+}
+.footer_form{
+	padding: 0 24.62vw; /* 337px */
+}
+.top_title h2{
+	margin-bottom: 2.93vw !important; /* 40px */
+}
+.form_btn{
+	margin: 3.66vw 0; /* 50px */
+}
+.form_btn .btn{
+	color: #fff;
+	border: 1px solid #fff !important;
+	border-radius: 50px !important;
+	transition: all 0.4s linear;
+}
+.form_btn .btn:hover, .form_btn .btn:active, .col1_form .btn:hover, .col1_form .btn:active{
+	color: #141414 !important;
+	background-color: #fff;
+}
+
+.footer_bottom{
+	padding: 3.66vw 0; /* 50px */
+}
+
+.col1_title h4, .col2_title h4, .col3_title h4{
+	font-size: 14.50px;
+	line-height: 22.50px;
+	color: #fff;	
+}
+
+.col1_form .form-control{
+	border-bottom: 1px solid #707171 !important;
+	background-color: transparent;
+	font-size: 14.51px;
+	line-height: 22.50px;
+}
+
+.col1_form .btn{
+	color: #fff !important;
+	border: 1px solid #fff !important;
+	border-radius: 50px !important;
+	transition: all 0.4s linear;
+}
+
+
+.col2_link a, .col3_info a{
+	color: #707171;
+	font-size: 13.50px;
+	line-height: 21.50px;
+	transition: all 0.4s linear;
+}
+.col2_link a:hover, .col2_link a:active, .col3_info a:hover,.col3_info a:active{
+	color: #fff;
+}
+
+.col2_link, .col3_info{
+	max-width: 76%;
+}
+.footer_end{
+	background-color: #bcc4f2;
+	color: #707171;
+	font-size: 14.51px;
+	line-height: 22.50px;
+	padding: 10px 0;
+}
+.footer_info p{
+	margin-bottom: 0rem !important;
+}
+
+
+
+
+
+
+
+
+

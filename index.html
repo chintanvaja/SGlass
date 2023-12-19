@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Flex Layout</title>
+		<!-- external CSS - start-->
+		<link rel="stylesheet" type="text/css" href="./Assests/css/style.css">
+		<!-- Icon CDN -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+		<!-- Font CDN -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Raleway:wght@600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<!-- Meta Tag -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap CDN -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+	</head>
+	<!-- Body Tag - start-->
+	<body>
+		<!-- Header - start-->
+		<header class="header_main">
+			<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+				<div class="container-fluid d-flex">
+					<div class="header_col1 col-2 text-uppercase px-xl-3 px-lg-2 px-md-1 px-sm-0 px-0">
+				  		<a class="navbar-brand" href="javascript:void(0)">sglass</a>
+					</div>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse header_col2 col-8 " id="mynavbar">
+						<ul class="navbar-nav text-uppercase">
+							<li class="nav-item px-xl-3 px-lg-2 px-md-1 px-sm-0 px-0">
+								<a class="nav-link" href="javascript:void(0)">home</a>
+							</li>
+							<li class="nav-item px-xl-3 px-lg-2 px-md-1 px-sm-0 px-0">
+								<a class="nav-link" href="javascript:void(0)">about</a>
+							</li>
+							<li class="nav-item px-xl-3 px-lg-2 px-md-1 px-sm-0 px-0">
+								<a class="nav-link" href="javascript:void(0)">shop</a>
+							</li>
+							<li class="nav-item px-xl-3 px-lg-2 px-md-1 px-sm-0 px-0">
+								<a class="nav-link" href="javascript:void(0)">glasses</a>
+							</li>
+							<li class="nav-item px-xl-3 px-lg-2 px-md-1 px-sm-0 px-0">
+								<a class="nav-link" href="javascript:void(0)">contact us</a>
+							</li>
+						</ul>
+					</div>
+					<div class="collapse navbar-collapse header_col3 col-2 justify-content-end" id="mynavbar">
+						<ul class="navbar-nav text-uppercase">
+							<li class="nav-item">
+								<a class="nav-link" href="javascript:void(0)">login</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-cart-shopping"></i></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="javascript:void(0)"><i class="fa-solid fa-magnifying-glass"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			  </nav>
+		</header>
+		<!-- Header - end-->
+
+		<!-- Banner - start-->
+		<div class="banner_main" style="background: url(./Assests/Images/banner.png) no-repeat center / cover;">
+			<div class="container-fluid banner_flex d-xl-flex d-lg-flex d-md-flex d-sm-flex flex-column text-uppercase">
+				<div class="banner_title">
+					<h1>
+						welcome to
+					</h1>
+				</div>
+				<div class="banner_sub">
+					<h2>
+						glasses shop
+					</h2>
+				</div>
+				<div class="banner_btn">
+					<button type="button" class="btn rounded-0 text-capitalize px-xl-5 px-lg-4 px-md-3 px-sm-2">buy now</button>
+				</div>
+			</div>
+
+			<button type="button" class="btn less_btn rounded-0 text-capitalize p-xl-4 p-lg-3 p-md-2 p-sm-1">
+				<i class="fa-solid fa-less-than"></i>
+			</button>
+			<button type="button" class="btn grt_btn rounded-0 text-capitalize p-xl-4 p-lg-3 p-md-2 p-sm-1">
+				<i class="fa-solid fa-greater-than"></i>
+			</button>
+		</div>
+		<!-- Banner - end-->
+		<!-- about - start-->
+		<div class="about_main">
+			<div class="container">
+				<div class="about_row">
+					<div class="about_right d-xl-flex d-lg-flex d-md-flex justify-content-end">
+						<img src="./Assests/Images/about.png" class="">
+					
+						<div class="about_left">
+							<div class="about_title">
+								<h2>
+									<span>about</span>
+									our shop
+								</h2>
+							</div>
+							<div class="about_subtitle">
+								<p>
+									It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+								</p>
+							</div>
+							<div class="about_btn">
+								<button type="button" class="btn rounded-0 text-capitalize px-xl-5 px-lg-4 px-md-3 px-sm-2">read more</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- about - end-->
+		<!-- glasses - start-->
+		<div class="glass_main">
+			<div class="container">
+				<div class="glass_flex">
+					<div class="glass_title">
+						<h2>
+							our <span>glasses</span>
+						</h2>
+					</div>
+					<div class="glass_row d-xl-flex d-lg-flex d-md-flex d-sm-flex flex-xl-wrap flex-lg-wrap flex-md-wrap flex-sm-wrap">
+						<div class="glass_col col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 p-xl-3 p-lg-2 p-md-1 p-sm-1 p-1">
+							<div class="card  pt-xl-5 pt-lg-4 pt-md-3 pt-sm-3 pt-2 px-xl-3 px-lg-3 px-md-2 px-sm-2 px-1">	
+								<img class="card-img-top my-xl-4 my-lg-4 my-md-3 my-sm-2 my-2" src="./Assests/Images/glasses.png" alt="Glass image">
+								<div class="card-body text-center glass_info">
+									<h4 class="card-title">$50</h4>
+									<a href="#" class="">buy now</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass_col col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 p-xl-3 p-lg-2 p-md-1 p-sm-1 p-1">
+							<div class="card  pt-xl-5 pt-lg-4 pt-md-3 pt-sm-3 pt-2 px-xl-3 px-lg-3 px-md-2 px-sm-2 px-1">	
+								<img class="card-img-top my-xl-4 my-lg-4 my-md-3 my-sm-2 my-2" src="./Assests/Images/glasses.png" alt="Glass image">
+								<div class="card-body text-center glass_info">
+									<h4 class="card-title">$50</h4>
+									<a href="#" class="">buy now</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass_col col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 p-xl-3 p-lg-2 p-md-1 p-sm-1 p-1">
+							<div class="card  pt-xl-5 pt-lg-4 pt-md-3 pt-sm-3 pt-2 px-xl-3 px-lg-3 px-md-2 px-sm-2 px-1">	
+								<img class="card-img-top my-xl-4 my-lg-4 my-md-3 my-sm-2 my-2" src="./Assests/Images/glasses.png" alt="Glass image">
+								<div class="card-body text-center glass_info">
+									<h4 class="card-title">$50</h4>
+									<a href="#" class="">buy now</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass_col col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 p-xl-3 p-lg-2 p-md-1 p-sm-1 p-1">
+							<div class="card  pt-xl-5 pt-lg-4 pt-md-3 pt-sm-3 pt-2 px-xl-3 px-lg-3 px-md-2 px-sm-2 px-1">	
+								<img class="card-img-top my-xl-4 my-lg-4 my-md-3 my-sm-2 my-2" src="./Assests/Images/glasses.png" alt="Glass image">
+								<div class="card-body text-center glass_info">
+									<h4 class="card-title">$50</h4>
+									<a href="#" class="">buy now</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass_col col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 p-xl-3 p-lg-2 p-md-1 p-sm-1 p-1">
+							<div class="card  pt-xl-5 pt-lg-4 pt-md-3 pt-sm-3 pt-2 px-xl-3 px-lg-3 px-md-2 px-sm-2 px-1">	
+								<img class="card-img-top my-xl-4 my-lg-4 my-md-3 my-sm-2 my-2" src="./Assests/Images/glasses.png" alt="Glass image">
+								<div class="card-body text-center glass_info">
+									<h4 class="card-title">$50</h4>
+									<a href="#" class="">buy now</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass_col col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 p-xl-3 p-lg-2 p-md-1 p-sm-1 p-1">
+							<div class="card  pt-xl-5 pt-lg-4 pt-md-3 pt-sm-3 pt-2 px-xl-3 px-lg-3 px-md-2 px-sm-2 px-1">	
+								<img class="card-img-top my-xl-4 my-lg-4 my-md-3 my-sm-2 my-2" src="./Assests/Images/glasses.png" alt="Glass image">
+								<div class="card-body text-center glass_info">
+									<h4 class="card-title">$50</h4>
+									<a href="#" class="">buy now</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass_col col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 p-xl-3 p-lg-2 p-md-1 p-sm-1 p-1">
+							<div class="card  pt-xl-5 pt-lg-4 pt-md-3 pt-sm-3 pt-2 px-xl-3 px-lg-3 px-md-2 px-sm-2 px-1">	
+								<img class="card-img-top my-xl-4 my-lg-4 my-md-3 my-sm-2 my-2" src="./Assests/Images/glasses.png" alt="Glass image">
+								<div class="card-body text-center glass_info">
+									<h4 class="card-title">$50</h4>
+									<a href="#" class="">buy now</a>
+								</div>
+							</div>
+						</div>
+						<div class="glass_col col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12 p-xl-3 p-lg-2 p-md-1 p-sm-1 p-1">
+							<div class="card  pt-xl-5 pt-lg-4 pt-md-3 pt-sm-3 pt-2 px-xl-3 px-lg-3 px-md-2 px-sm-2 px-1">	
+								<img class="card-img-top my-xl-4 my-lg-4 my-md-3 my-sm-2 my-2" src="./Assests/Images/glasses.png" alt="Glass image">
+								<div class="card-body text-center glass_info">
+									<h4 class="card-title">$50</h4>
+									<a href="#" class="">buy now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="glass_btn text-center">
+						<button type="button" class="btn rounded-0 text-capitalize px-xl-5 px-lg-4 px-md-3 px-sm-2">see more</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- glasses - end-->
+		<!-- Best - start-->
+		<div class="best_main">
+			<div class="container">
+				<div class="best_title">
+					<h2>
+						<span>Best</span> Quality
+					</h2>
+				</div>
+				<div class="best_row row d-xl-flex d-lg-flex d-md-flex d-sm-flex d-flex flex-xl-row flex-lg-row flex-md-column-reverse flex-sm-column-reverse flex-column-reverse">
+					<div class="best_left col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+						<div class="best_info py-xl-5 py-lg-5 py-md-4 py-sm-3 py-2 ">
+							<div class="best_info1 mb-xl-4 mb-lg-4 mb-md-4 mb-sm-3">
+								<p><span>01</span> It is a long established fact that a reader will be distracted</p>
+							</div>
+							<div class="best_info2 mb-xl-4 mb-lg-4 mb-md-4 mb-sm-3">
+								<p><span>02</span>  by the readable content of a page when looking at its </p>
+							</div>
+							<div class="best_info2 mb-xl-4 mb-lg-4 mb-md-4 mb-sm-3">
+								<p><span>03</span> layout. The point of using Lorem Ipsum is that it has a </p>
+							</div>
+							<div class="best_info2 mb-xl-4 mb-lg-4 mb-md-4 mb-sm-3">
+								<p><span>04</span> more-or-less normal distribution of letters, </p>
+							</div>
+						</div>
+					</div>
+					<div class="best_right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+						<div class="best_img">
+							<img src="./Assests/Images/best.png">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Best - end-->
+		<!-- offer - start-->
+		<div class="offer_main">
+			<div class="offer_row d-xl-flex d-lg-flex d-md-flex d-sm-flex d-flex">
+				<div class="offer_left col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 px-xl-3 px-lg-3 px-md-2 px-sm-2 px-2">
+					<div class="offer_img">
+						<img src="./Assests/Images/offer.png">
+					</div>
+				</div>
+				<div class="offer_right col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 px-xl-3 px-lg-3 px-md-2 px-sm-2 px-2">
+					<div class="offer_info">
+						<div class="offer_title text-uppercase">
+							<h2>
+								book our special offer
+							</h2>
+						</div>
+						<div class="offer_btn">
+							<button type="button" class="btn rounded-0 text-capitalize px-xl-5 px-lg-4 px-md-3 px-sm-2">see more offer</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- offer - end-->
+		<!-- Buy - start-->
+		<div class="buy_main">
+			<div class="container">
+				<div class="buy_flex text-center">
+					<div class="buy_title">
+						<h2>
+							<span>buy</span> your stylish <span class="buy_span">glasses</span>
+						</h2>
+					</div>
+					<div class="buy_img">
+						<img src="./Assests/Images/buy.png">
+					</div>
+					<div class="buy_info">
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+					</div>
+					<div class="buy_info">
+						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+					</div>
+					<div class="buy_btn">
+						<button type="button" class="btn rounded-0 text-capitalize px-xl-5 px-lg-4 px-md-3 px-sm-2">book now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Buy - end-->
+		<!-- customer - start-->
+		<div class="customer_main">
+			<div class="container">
+				<div class="customer_flex text-center">
+					<div class="customer_title">
+						<h2>
+							<span>what</span> says our customer
+						</h2>
+					</div>
+					<div class="customer_info d-xl-inline-block d-lg-inline-block d-md-inline-block d-sm-inline-block d-inline-block">
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+					</div>
+					<div class="customer_img mb-xl-3 mb-lg-3 mb-md-2 mb-sm-2 mb-2">
+						<img src="./Assests/Images/customer.png">
+					</div>
+					<div class="customer_name text-capitalize">
+						<a href="#">jacksmith sand</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- customer - end-->
+		<!-- Footer - start-->
+		<footer class="footer_main">
+			<div class="footer_hero">
+				<div class="footer_top text-center">
+					<div class="top_title">
+						<h2>
+							Request A call back
+						</h2>
+					</div>
+					<form class="footer_form">
+						<div class="name ">
+							<input type="text" class="form-control border-0" placeholder="Name">
+						</div>
+						<div class="number">
+							<input type="number" class="form-control border-0" placeholder="Phone number">
+						</div>
+						<div class="email">
+							<input type="email" class="form-control border-0" placeholder="Email">
+						</div>
+						<div class="message">
+							<input type="text" class="form-control border-0" placeholder="message">
+						</div>
+						<div class="form_btn">
+							<button type="submit" class="btn border-0 px-xl-5 px-lg-4 px-md-3 px-sm-2">SEND</button>
+						</div>
+					  </form>
+				</div>
+				<div class="footer_bottom">
+					<div class="bottom_row d-xl-flex d-lg-flex d-md-flex d-sm-flex d-flex flex-sm-wrap flex-wrap">
+						<div class="bottom_col1 col-xl-6 col-lg-4 col-md-4 col-sm-12 col-12 px-lg-3">
+							<div class="col1_title text-capitalize">
+								<h4>subscribe now</h4>
+							</div>
+							<div class="input-group col1_form">
+								<input type="email" class="form-control border-0 rounded-0 col1_email" placeholder="Enter your email">
+								<button class="btn col1_btn border-0 px-xl-5 px-lg-4 px-md-3 px-sm-2" type="submit">SUBMIT</button>
+							</div>
+						</div>
+						<div class="bottom_col2 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 px-lg-3 pt-sm-2 pt-2">
+							<div class="col2_title text-capitalize">
+								<h4>links</h4>
+							</div>
+							<div class="col2_link">
+								<p> 
+									<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+								</p>
+							</div>
+						</div>
+						<div class="bottom_col3 col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 px-lg-3 pt-sm-2 pt-2">
+							<div class="col3_title text-capitalize">
+								<h4>contact us</h4>
+							</div>
+							<div class="col3_info">
+								<p> 
+									<a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="footer_end text-center">
+				<div class="footer_info">
+					<p>© 2019 All Rights Reserved.  By Free Html Templates	</p>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer - end-->
+	</body>
+	<!-- Body Tag - end-->
+
+</html>
